@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* External css */
+
+.container {
+  color: blue;
+}
