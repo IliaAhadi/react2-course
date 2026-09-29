@@ -51,8 +51,11 @@ export default function About() {
 
       <Container>
         <div className="flex justify-between items-center gap-10 mb-30">
-          {abouts.map((item) => (
-            <div className="flex flex-col justify-center items-center text-center">
+          {abouts.map((item, i) => (
+            <div
+              className="flex flex-col justify-center items-center text-center"
+              key={i}
+            >
               <span>
                 <img src={item.icon} alt="" />
               </span>
