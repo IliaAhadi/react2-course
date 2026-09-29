@@ -36,7 +36,7 @@ export default function About() {
       <Navbar />
       <div className="bg-[url(header2.jpg)] bg-cover bg-center w-full h-[60vh] mb-30 flex justify-center relative">
         <div className="absolute inset-0 bg-black/30"></div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center z-10">
           <h1 className="text-7xl font-bold text-white text-center">
             About Us
           </h1>
