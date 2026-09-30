@@ -1,0 +1,41 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image6.jpg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
