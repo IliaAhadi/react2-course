@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 // Session-10
 export default function Footer() {
   return (
-    <div className="bg-[url(5555555555.jpg)] bg-cover w-full h-[25rem] relative">
+    <div className="bg-[url(/5555555555.jpg)] bg-cover w-full h-[25rem] relative">
       <Container>
         <div className="flex text-white items-center justify-between gap-2 py-15">
           <div>

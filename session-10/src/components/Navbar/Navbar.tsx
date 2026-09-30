@@ -22,7 +22,7 @@ function Navbar() {
             </li>
           ))}
         </ul>
-        <img src="logo.png" alt="" />
+        <img src="/logo.png" alt="" />
       </div>
     </Container>
   );

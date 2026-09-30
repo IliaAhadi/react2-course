@@ -31,7 +31,7 @@ export default function Blogs() {
     <div>
       <Navbar />
 
-      <div className="bg-[url(header3.jpg)] bg-cover bg-center w-full h-[60vh] mb-30 flex justify-center relative">
+      <div className="bg-[url(/header3.jpg)] bg-cover bg-center w-full h-[60vh] mb-30 flex justify-center relative">
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="flex flex-col justify-center items-center z-10">
           <h1 className="text-7xl font-bold text-white text-center">Blogs</h1>

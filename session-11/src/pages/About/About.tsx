@@ -34,7 +34,7 @@ export default function About() {
   return (
     <div>
       <Navbar />
-      <div className="bg-[url(header2.jpg)] bg-cover bg-center w-full h-[60vh] mb-30 flex justify-center relative">
+      <div className="bg-[url(/header2.jpg)] bg-cover bg-center w-full h-[60vh] mb-30 flex justify-center relative">
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="flex flex-col justify-center items-center z-10">
           <h1 className="text-7xl font-bold text-white text-center">
@@ -65,7 +65,7 @@ export default function About() {
           ))}
         </div>
 
-        <div className="bg-[url(background.jpg)] bg-cover bg-center w-full h-[25rem] mb-30 flex justify-between ">
+        <div className="bg-[url(/background.jpg)] bg-cover bg-center w-full h-[25rem] mb-30 flex justify-between ">
           <div className="flex flex-col items-start justify-center px-20">
             <h1 className="text-5xl font-bold">Lorem ipsum dolor</h1>
             <p className="my-7">
