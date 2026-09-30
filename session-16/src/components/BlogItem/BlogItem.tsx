@@ -1,6 +1,6 @@
-import type { IBlogs } from "../../pages/Blogs/Blogs";
+import type { IBlog } from "../../pages/Blogs/Blogs";
 
-export default function BlogItem({ title, description, image }: IBlogs) {
+export default function BlogItem({ title, description, image }: IBlog) {
   return (
     <div className="shadow-md shadow-amber-800 h-[30rem] rounded transition duration-300 hover:brightness-50">
       <img className="rounded-t h-70 w-full " src={image} alt="" />

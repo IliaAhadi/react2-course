@@ -5,15 +5,15 @@ import Navbar from "../../components/Navbar/Navbar";
 import axios from "axios";
 
 // session 13
-export interface IBlogs {
-  id: number;
+export interface IBlog {
+  id: number | string;
   title: string;
   description: string;
   image: string;
 }
 
 export default function Blogs() {
-  const [blogs, setBlogs] = useState<IBlogs[]>([]);
+  const [blogs, setBlogs] = useState<IBlog[]>([]);
 
   useEffect(() => {
     async function getBlogs() {

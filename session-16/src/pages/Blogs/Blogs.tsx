@@ -6,7 +6,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 // session 13
-export interface IBlogs {
+export interface IBlog {
   id: number | string;
   title: string;
   description: string;
@@ -14,7 +14,7 @@ export interface IBlogs {
 }
 
 export default function Blogs() {
-  const [blogs, setBlogs] = useState<IBlogs[]>([]);
+  const [blogs, setBlogs] = useState<IBlog[]>([]);
 
   useEffect(() => {
     async function getBlogs() {

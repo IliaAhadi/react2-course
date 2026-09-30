@@ -1,16 +1,16 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import type { IBlogs } from "../../pages/Blogs/Blogs";
 import Container from "../Container/Container";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import type { IBlog } from "../../pages/Blogs/Blogs";
 
 // session 14
 export default function BlogPage() {
   const { id } = useParams();
   const [loading, setLoading] = useState(false);
-  const [blog, setBlog] = useState<IBlogs | null>(null);
+  const [blog, setBlog] = useState<IBlog | null>(null);
 
   useEffect(() => {
     function getBlog() {
