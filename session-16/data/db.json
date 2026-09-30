@@ -1,0 +1,47 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Understanding React Hooks",
+      "description": "An in-depth look at React Hooks and how to use them effectively in your application.",
+      "image": "/image6.jpg"
+    },
+    {
+      "id": "fR0Xbn6_uaE",
+      "title": "TEst",
+      "description": "dddddd",
+      "image": "https://shut.ir/storage/image/2026/3/17/%D8%B9%DA%A9%D8%B3-%DA%A9%D9%88%D8%A2%D9%84%D8%A7-%DA%A9%DB%8C%D9%81%DB%8C%D8%AA-%D8%A8%D8%A7%D9%84%D8%A7.webp"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
